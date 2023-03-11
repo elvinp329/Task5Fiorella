@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 30px 5rem;
+}
+
+.all {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.all nav a {
+
+    color: black;
+    font-size: 15px;
+    margin-right: 2rem;
+
+}
+
+.all .icon img {
+    width: 45%;
+
+}
+
+.all .cart i {
+    margin-right: 15px;
+}
+
+.cart a {
+    color: black;
+}
+
+.allone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.allone {
+    background-color: azure;
+    width: 100%;
+    padding: 250px 150px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-2.jpg);
+}
+
+.allone p {
+    width: 50%;
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 20px;
+
+
+}
+
+
+.allone h1 {
+    margin-bottom: 17px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.alltwo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin: 6rem;
+
+}
+
+.box {
+    width: 22%;
+    margin-bottom: 41px;
+
+}
+
+.box .imgg {
+    overflow: hidden;
+}
+
+.box img {
+    width: 100%;
+    transition: 0.2s;
+    cursor: pointer;
+
+
+}
+
+.box h6 {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.box p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+
+}
+
+.box img:hover {
+    transform: scale(1.1);
+}
+
+.video {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: beige;
+    padding: 50px 350px;
+
+}
+
+.videotext {
+    text-align: left;
+    color: black;
+    margin-left: 60px;
+}
+
+.videotext h1 {
+    font-size: 50px;
+}
+
+
+.videotext p {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+
+.allfour {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+   background-color:aliceblue;
+   padding: 8rem;
+
+}
+
+
+.textfour {
+    width: 100%;
+    text-align: center;
+
+}
+
+.textfour h1 {
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+.textfour p {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.allfour .item .photo{
+    margin-bottom: 4rem;   
+    
+}
+.textphoto p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
